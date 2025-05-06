@@ -34,14 +34,14 @@ Run the app
 🗃️ Database Schema
 Tables
 asteroids
-•	id (Primary Key)
+•	id 
 •	name
 •	absolute_magnitude
 •	estimated_diameter_min
 •	estimated_diameter_max
 •	is_potentially_hazardous
 close_approach
-•	id (Primary Key)
+•	id 
 •	asteroid_id (Foreign Key to asteroids)
 •	close_approach_date
 •	relative_velocity_km_s
